@@ -13,7 +13,7 @@
 * Used to create, view or modify/update specific records in a table.
 * shows the record fields on the basis of Access
 * **Examples**: Incident form, Change form, Knowledge Form.
-* ### Elements of a form
+    ### Elements of a form
     * **Form header:** Provides navigation tools and actions related to the record.
     * **Fields:** Stores specific data about the record.
     * **Sections:**	Groups related information on the form.

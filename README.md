@@ -1,7 +1,7 @@
 ## Update Set 
 * are used for Recording and moving configuration changes from one instance to another intance **stored in an xml file**.
 * Keeping system properties private prevents settings in one instance from overwriting values in another instance.
-* ## Tables
+* ### Tables Involved
     * **Update Set (sys_update_set)**: Stores Update Sets
     * **Customer Update (sys_update_xml)**: Stores all the customizations of a update set 
     * **Update Versions** (sys_update_version): Stores changes of customizations and helps in comparision

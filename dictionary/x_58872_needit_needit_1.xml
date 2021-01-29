@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="NeedIt_1" max_length="40" name="x_58872_needit_needit_1" type="collection">
+        <element label="DOB" max_length="40" name="dob" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Experience" max_length="40" name="experience" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="less than 1 Year" sequence="0" value="less than 1 year"/>
+                <element inactive_on_update="false" label="1-3 years" sequence="1" value="1-3 years"/>
+                <element inactive_on_update="false" label="more than 3 Years" sequence="2" value="more than 3 years"/>
+            </choice>
+        </element>
+        <element label="FirstName" max_length="50" name="firstname" type="string"/>
+        <element label="Last Name" max_length="50" name="last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Married" max_length="40" name="married" type="boolean"/>
+    </element>
+</database>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Employee Projects" max_length="40" name="x_58872_needit_employee_projects" sizeclass="0" type="collection">
+        <element label="Employee Id" max_length="40" name="employee_id" reference="x_58872_needit_needit_custom_table" type="integer"/>
+        <element label="Project Id" max_length="40" name="project_id" reference="x_58872_needit_projects" type="integer"/>
+    </element>
+</database>

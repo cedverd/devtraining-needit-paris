@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="NeedIt Employee Table" max_length="40" name="x_58872_needit_needit_custom_table" sizeclass="0" type="collection">
+        <element label="Employed" max_length="40" name="employed" type="boolean"/>
+        <element label="Employee Id" max_length="40" name="employee_id" type="integer"/>
+        <element choice="1" label="Experience" max_length="40" name="experience" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Advanced" value="3 to 5 years"/>
+                <element inactive_on_update="false" label="Expert" value="more than 5 years"/>
+                <element inactive_on_update="false" label="Fresher" value="less than 1 year"/>
+                <element inactive_on_update="false" label="Intermediate" value="1 to 3 years"/>
+            </choice>
+        </element>
+        <element label="First Name" max_length="50" name="first_name" type="string"/>
+        <element display="true" label="Joining Date" max_length="40" name="joining_date" type="glide_date"/>
+        <element label="Last Name" max_length="30" name="last_name" type="string"/>
+        <element label="Leaving Date" max_length="40" name="leaving_date" type="glide_date"/>
+        <element label="Project" max_length="40" name="project" type="boolean"/>
+        <element default="100" label="Project Details" max_length="40" name="project_details" type="string"/>
+        <element label="Project Id" max_length="40" name="project_id" reference="x_58872_needit_projects" type="integer"/>
+    </element>
+</database>

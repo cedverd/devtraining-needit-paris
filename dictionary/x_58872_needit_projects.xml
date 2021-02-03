@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="NeedIt Projects" max_length="40" name="x_58872_needit_projects" sizeclass="0" type="collection">
+        <element choice="1" display="true" label="Department Id" max_length="40" name="department_id" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="-- New choice --" value="-- New choice --"/>
+                <element inactive_on_update="false" label="Finance" value="01"/>
+                <element inactive_on_update="false" label="HR" value="02"/>
+                <element inactive_on_update="false" label="R &amp; D" value="03"/>
+            </choice>
+        </element>
+        <element label="Project Id" max_length="40" name="project_id" type="integer"/>
+        <element label="Project Name" max_length="100" name="project_name" type="string"/>
+    </element>
+</database>
